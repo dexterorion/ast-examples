@@ -1,0 +1,59 @@
+{
+    "package": "build",
+    "files": [
+        {
+            "name": "build_a.go",
+            "structures": [
+                {
+                    "name": "TestA",
+                    "fields": [
+                        {
+                            "name": "fieldA1",
+                            "type": "string"
+                        },
+                        {
+                            "name": "fieldA2",
+                            "type": "string"
+                        }
+                    ]
+                },
+                {
+                    "name": "TestB",
+                    "fields": [
+                        {
+                            "name": "fieldB1",
+                            "type": "bool"
+                        },
+                        {
+                            "name": "fieldB2",
+                            "type": "bool"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "build_b.go",
+            "structures": [
+                {
+                    "name": "TestC",
+                    "fields": [
+                        {
+                            "name": "fieldC1",
+                            "type": "string"
+                        }
+                    ]
+                },
+                {
+                    "name": "TestD",
+                    "fields": [
+                        {
+                            "name": "fieldC1",
+                            "type": "bool"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
